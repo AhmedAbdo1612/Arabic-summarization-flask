@@ -1,6 +1,5 @@
 from flask import Flask,request,jsonify
 from flask_cors import CORS
-import torch
 from transformers import (AutoTokenizer, AutoModelForSeq2SeqLM,)
 
 model_name = "ahmedabdo/arabic-summarizer-bart"
